@@ -34,6 +34,7 @@ def sum_bonus():
     elif 400000 < profit <= 600000:
         bonus = l1 + l2 + l3 + (profit - 400000) * 0.03
     print(bonus)
+    1
 
 if __name__ == '__main__':
     sum_bonus()
