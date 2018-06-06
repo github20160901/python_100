@@ -1,6 +1,6 @@
 #filename: qt_1.py
 import sys
-from PyQt4 import QtCore, QtGui
+from Pimport QtCore, QtGui
 
 class MyWidget(QtGui.QWidget): #实现自定义的窗口部件
     def __init__(self, parent=None):

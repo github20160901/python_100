@@ -7,7 +7,9 @@ for i in func(3):
     print (i)
 # 使用next()输出
 r =  func(3)
-print (r.next())
-print (r.next())
-print (r.next())
-print (r.next())
+print (r.__next__())
+print (r.__next__())
+print (r.__next__())
+#print (r.__next__())
+
+#print(help(r))

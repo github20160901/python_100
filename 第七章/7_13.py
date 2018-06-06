@@ -1,7 +1,9 @@
 # 文件的查找
 import re
 
-f1 = file("hello.txt", "r")
+f1.write('hello,word;hello,china')
+f1.close()
+f1.write('hello,word;hello,china')
 count = 0
 for s in f1.readlines():    
     li = re.findall("hello", s)

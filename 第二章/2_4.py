@@ -18,3 +18,5 @@ sumPay = 0                                  # 年薪
 bonusOfYear = 2000                          # 年终奖金
 monthPay = 1200                             # 月薪
 sumPay = bonusOfYear + 12 * monthPay        # 年薪 = 年终奖金 + 12 * 月薪
+
+print(sumPay)

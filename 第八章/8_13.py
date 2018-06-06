@@ -21,3 +21,6 @@ class Apple(HuskedFruit):
 
 class Banana(DecorticatedFruit):
    pass
+
+Apple()
+Banana()

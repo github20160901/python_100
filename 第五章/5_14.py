@@ -9,5 +9,5 @@ def func2(n):
 print (func(3))
 f = func2(3)
 print (f)
-print (f.next())
-print (f.next())
+print (f.__next__())
+print (f.__next__())

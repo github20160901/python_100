@@ -4,8 +4,9 @@ try:
     print ("读文件")
 except FileNotFoundError:                           # 捕获FileNotFoundError异常
     print ("文件不存在")
-finally:                                # 其他异常情况
-    f.close()
+finally:  # 其他异常情况
+    print ('the file is not exit')
+    #f.close()
 
 try:
     f = open("hello.txt", "r") 

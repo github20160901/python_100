@@ -17,5 +17,5 @@ class Watermelon(Vegetable, Fruit):             # 多重继承，同时继承Veg
 
 if __name__ == "__main__":
     w = Watermelon()            # 多重继承的子类，拥有父类的一切公有属性
-    w.grow()
-    w.plant()
+   # w.grow()
+    #w.plant()

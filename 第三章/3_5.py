@@ -7,6 +7,6 @@ while(x  != 0):                     # python3中不等于抛弃了<>，一律使
     else:
         x += 1                     # 如果x小于0则加1
     i = i + 1
-    print( "第%d次循环：" %(i, x))
+    print( "第%d次循环：%s" %(i, x))
 else:
     print ("x等于0：", x)

@@ -1,7 +1,7 @@
 # return返回多个值
 def func(x, y, z):
     l = [x, y, z]
-    l.reverse()
+    print(l.reverse())
     numbers = tuple(l)
     return numbers
 

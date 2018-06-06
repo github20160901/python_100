@@ -75,7 +75,6 @@ sentence = "This is a apple."
 print (sentence.find("a"))
 sentence = "This is a apple."
 print (sentence.rfind("a"))
-
 # 字符串的替换
 centence = "hello world, hello China"
 print (centence.replace("hello", "hi"))

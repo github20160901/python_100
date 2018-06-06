@@ -1,5 +1,5 @@
 tuple = ("apple")         # 定义元组
-print(tuple[0])           # 打印第一个元素
+print(tuple[0])           # 打印第一个元素，
 print (type(tuple))        # 打印定义的tuple的类型
 
 tuple = ("apple",)        # 定义元组，注意后面的逗号不可少
@@ -22,7 +22,7 @@ tuple = (fruit1, fruit2)
 print (tuple)
 print ("tuple[0][1] =", tuple[0][1])
 print ("tuple[1][1] =", tuple[1][1])
-print ("tuple[1][1] =", tuple[1][2])
+#print ("tuple[1][1] =", tuple[1][2])   #只有2个元素,[2]是第三个，不存在
 
 #打包
 tuple = ("apple", "banana", "grape", "orange")

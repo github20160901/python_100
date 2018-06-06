@@ -1,4 +1,5 @@
-def power(x): return x ** x           
+def power(x):
+    return x ** x
 print (map(power, range(1, 5)))                                  # 打印map对象
 print(list(map(power,range(1,5))))                                  # 转换为列表输出
 def power2(x, y): return x ** y   

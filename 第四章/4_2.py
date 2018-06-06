@@ -6,7 +6,7 @@ list.insert(1, "grapefruit")                 # 列表中插入元素
 print (list)
 list.remove("grape")                     # 列表中移除grape
 print (list)
-list.remove("a")                        # 列表中移除a，因为当前列表中并没有a，所以将抛错
+#list.remove("a")                        # 列表中移除a，因为当前列表中并没有a，所以将抛错
 print (list.pop())                        # 打印从列表中弹出的元素，即最后一个元素
 print (list)
 

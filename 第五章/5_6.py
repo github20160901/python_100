@@ -7,3 +7,5 @@ def arithmetic(x, y, operator):
         "/" : x / y 
     }
     return result.get(operator)     # 返回计算结果
+if __name__ == '__main__':
+    print(arithmetic(10,10,'-'))
